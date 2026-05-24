@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sx9-UQ-Ep6">
+                                <rect key="frame" x="134.5" y="364" width="124" height="124"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="OpenEtymologySplashLogo" translatesAutoresizingMaskIntoConstraints="NO" id="sQ9-SQ-yRN">
+                                        <rect key="frame" x="0.0" y="0.0" width="124" height="124"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="sQ9-SQ-yRN" firstAttribute="leading" secondItem="Sx9-UQ-Ep6" secondAttribute="leading" id="Bfz-HY-05Z"/>
+                                    <constraint firstAttribute="bottom" secondItem="sQ9-SQ-yRN" secondAttribute="bottom" id="Onc-E2-h0C"/>
+                                    <constraint firstItem="sQ9-SQ-yRN" firstAttribute="top" secondItem="Sx9-UQ-Ep6" secondAttribute="top" id="V7t-qm-LJf"/>
+                                    <constraint firstAttribute="trailing" secondItem="sQ9-SQ-yRN" secondAttribute="trailing" id="d8B-16-fBR"/>
+                                    <constraint firstItem="sQ9-SQ-yRN" firstAttribute="width" constant="124" id="dT6-Ig-ioL"/>
+                                    <constraint firstItem="sQ9-SQ-yRN" firstAttribute="height" constant="124" id="nMW-T0-4tp"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
+                        <color key="backgroundColor" red="0.96470588235294119" green="0.97254901960784312" blue="0.98431372549019602" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Sx9-UQ-Ep6" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="4tM-iI-PQW"/>
+                            <constraint firstItem="Sx9-UQ-Ep6" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="SIw-Z8-cxf"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="80" y="80"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="OpenEtymologySplashLogo" width="1024" height="1024"/>
+    </resources>
+</document>
